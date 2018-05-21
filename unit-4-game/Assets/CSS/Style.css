@@ -1,0 +1,80 @@
+.body, html{
+    font-family: 'Yellowtail', cursive;
+    
+}
+.bg{
+    background: url("../Images/Background.jpg") center center fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header{  
+    font-size: 600%;
+    text-align: center;
+    width: 150%;    
+    padding: 25px;
+    margin: 10px 15px 15px 15px;
+    float: left;
+    font-size: 50px;
+}
+.main-body{
+    background-color: rgba(245, 245, 245, 0.623);
+    font-size: 200%;
+    font-weight: 300;
+    margin: 10px 10px 10px 15px;
+
+}
+#number-box1{
+    background-color: rgba(245, 245, 245, 0.623);
+    font-family: 'Yellowtail', cursive;
+    position: relative;
+    font-size: 600%;
+    text-align: center;
+    height: 150px;
+    margin: 10px 10px 10px 15px;
+}
+#number-box2{
+    background-color: rgba(245, 245, 245, 0.623);
+    font-family: 'Yellowtail', cursive;
+    font-size: 200%;
+    font-weight: 200;
+    height: 150px;
+    margin: 10px 0px 10px 15px;
+    padding-top: 25px;
+}
+.crystals{
+    
+    height: 100%;
+    width: 80%; 
+}
+crystalhover:hover{
+    height: 175px;
+    width: 175px;
+}
+.bottom{
+    float:right;
+    height: 150px;
+    width: 150px;
+    margin: 15px 0px 15px 15px;
+    font-size: 300%;
+    color: black;
+    font-weight:400;
+}
+#number-box3{
+    font-family: 'Yellowtail', cursive;
+    float: right; 
+    font-size:600%;
+    text-align: center;
+    color: rgb(241, 19, 30);
+    margin: 10px 0px 10px 15px;
+}
+.flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+  
+      border: 1px solid #ccc;
+  }
